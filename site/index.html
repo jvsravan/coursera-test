@@ -14,6 +14,12 @@
             font-size: 36px;
             text-align: center;
         }
+        .red{
+            color: red;
+        }
+        #list{
+            color: purple;
+        }
     </style>
 </head>
 <body>
@@ -31,7 +37,7 @@
 		<span>SPAN 2: INSIDE div 3</span>
 		Continue content after div 3. We donot use div regularly, instead we use other semantic elements that are block level elements like section, article, aside...etc.
 	</div>
-    <section>
+    <section class="red">
         Section 1
         <article>Article 1, An article can have sections in it too</article>
         <article>Article 2</article>
@@ -59,7 +65,7 @@
     </div>
     <div>
     	In order to write elemets as list, we use ul tag which indicates unorderedlist, li tag indicates the list elements.
-    	<ul>
+    	<ul id = "list">
     		<li>Milk</li>
     		<li>Donuts</li>
     		<li>Cookies, it is further subdivided as follows</li>
