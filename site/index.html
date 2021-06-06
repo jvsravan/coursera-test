@@ -2,9 +2,93 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>Hello Coursera</title>
+	<title>HTML using Sublime text</title>
+    <style type="text/css">
+        p{
+            color: blue;
+            font-size: 20px;
+            width: 200px;
+        }
+        h1{
+            color: green;
+            font-size: 36px;
+            text-align: center;
+        }
+    </style>
 </head>
 <body>
-<h1>Hello Coursera!!!!!!! Welcome to this page.</h1>
+	<header>
+        Header element - Some header information goes here. Usually consists of company logo, some tag line etc. Sometimes, navigation is contained in the header as well.
+        <nav>nav - it is the shorter form of navigation - Usually contains links to different parts of website.</nav>  
+    </header>
+    <h1>Welcome to this page</h1>
+    <p>This is the paragraph of this page.</p>
+    <div>DIV 1: Some content here, content in div is always in a separate line</div>
+	<div>DIV 2: Following right after div1</div>
+	<span>SPAN 1: Following right after div 2, though span is inline, it came to next line because it follows div which is always in a separate line</span>
+	<div>
+		DIV 3: Following right after span 1
+		<span>SPAN 2: INSIDE div 3</span>
+		Continue content after div 3. We donot use div regularly, instead we use other semantic elements that are block level elements like section, article, aside...etc.
+	</div>
+    <section>
+        Section 1
+        <article>Article 1, An article can have sections in it too</article>
+        <article>Article 2</article>
+        <article>Article 3</article>
+    </section>
+    <section>
+        Section 2
+        <article>Article 4</article>
+        <article>Article 5</article>
+        <article>Article 6</article>
+    </section>
+    <aside>Aside - some information that relates to the main topic, i.e., related posts.</aside>
+    <div>
+    	In div, all TAB and Enter are always ignored, so the following does give the output in a single line.
+    </div>
+    <div>
+    	Shopping list:
+    	Milk
+    	Donuts
+    	Cookies
+    		Chocolates
+    		Sugar
+    		Peanut Butter
+    	Pepsi
+    </div>
+    <div>
+    	In order to write elemets as list, we use ul tag which indicates unorderedlist, li tag indicates the list elements.
+    	<ul>
+    		<li>Milk</li>
+    		<li>Donuts</li>
+    		<li>Cookies, it is further subdivided as follows</li>
+    		<ul>
+    			<li>Chocolates</li>
+    			<li>Sugar</li>
+    			<li>Peanut Butter</li>
+    		</ul>
+    		<li>Pepsi</li>
+    	</ul>
+    </div>
+    <div>
+    	If we want numbering so that the procedure is followed step wise from top to bottom like cooking, we use Ordered list.
+    	<ol>
+    		<li>Open Box</li>
+    		<li>Take out cookies</li>
+    		<li>Make a Double Oreo</li>
+    		<ol>
+    			<li>Peel off the top part</li>
+    			<li>Place another cookie in the middle</li>
+    			<li>Put back the top part</li>
+    		</ol>
+    		<li>Enjoy!!!!!!!!</li>
+    	</ol>
+    </div>
+    <h2>Sub Heading 2</h2>
+    <h3>Sub Heading 3</h3>
+	<h4>Sub Heading 4</h4>
+	<h5>Sub Heading 5</h5>
+    <footer>Copyrights &copy; 2021</footer>
 </body>
 </html>
